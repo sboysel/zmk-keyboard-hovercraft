@@ -1,0 +1,11 @@
+file_format: "1"
+id: hovercraft
+name: hovercraft
+type: shield
+url: https://github.com/sboysel/hovercraft
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - hovercraft_left
+  - hovercraft_right
