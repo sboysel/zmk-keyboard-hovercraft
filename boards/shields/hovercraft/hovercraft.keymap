@@ -57,8 +57,8 @@
 
         sym {
             bindings = <
-                &none       &kp GRAVE   &kp BSLH    &kp LBKT    &kp RBKT            &none           &none           &none           &none           &none
-                &kp SEMI    &none       &none       &kp MINUS   &kp EQUAL           &none           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI
+                &none       &none       &none       &kp MINUS   &kp EQUAL           &none           &none           &none           &none           &none
+                &kp SEMI    &kp GRAVE   &kp BSLH    &kp LBKT    &kp RBKT            &none           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI
                 &none       &none       &none       &none       &none               &none           &none           &none           &none           &none
                                                     &trans      &trans              &trans          &none 
             >;
