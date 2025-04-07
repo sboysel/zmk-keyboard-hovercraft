@@ -21,46 +21,46 @@
 
         base {
             bindings = <
-                &kp Q       &kp W       &kp E       &kp R        &kp T        &kp Y       &kp U        &kp I        &kp O         &kp P
-                &mt LGUI A  &mt LALT S  &mt LCTRL D &mt LSHFT F  &kp G        &kp H       &mt LSHFT J  &mt LCTRL K  &mt LALT L    &mt LGUI SQT
-                &kp Z       &kp X       &kp C       &kp V        &kp B        &kp N       &kp M        &kp COMMA    &kp DOT       &kp SLASH
-                                                    &lt 1 SPACE  &lt 2 TAB    &lt 3 ENTER &lt 4 BSPC
+                &kp Q       &kp W       &kp E       &kp R        &kp T              &kp Y           &kp U           &kp I           &kp O           &kp P
+                &mt LGUI A  &mt LALT S  &mt LCTRL D &mt LSHFT F  &kp G              &kp H           &mt LSHFT J     &mt LCTRL K     &mt LALT L      &mt LGUI SQT
+                &kp Z       &kp X       &kp C       &kp V        &kp B              &kp N           &kp M           &kp COMMA       &kp DOT         &kp SLASH
+                                                    &lt 1 SPACE  &lt 2 TAB          &lt 3 ENTER     &lt 4 BSPC
             >;
         };
 
         fun {
             bindings = <
-                &kp F1  &kp F2  &kp F3  &kp F4  &kp F5      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                &kp F6  &kp F7  &kp F8  &kp F9  &kp F10     &none         &bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &bt BT_CLR_ALL
-                &kp F11 &kp F12 &none   &none   &none       &none         &none         &none         &none         &soft_off
-                                        &none   &trans      &trans        &trans
+                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5              &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4
+                &kp F6      &kp F7      &kp F8      &kp F9      &kp F10             &none           &bt BT_CLR      &bt BT_NXT      &bt BT_PRV      &bt BT_CLR_ALL
+                &kp F11     &kp F12     &none       &none       &bootloader         &bootloader     &none           &none           &none           &soft_off
+                                                    &none       &trans              &KP DEL         &kp BSPC
             >;
         };
 
         nav {
             bindings = <
-                &none     &none     &none      &none      &none     &none   &none     &none     &none   &none
-                &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none     &none   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-                &none     &none     &none      &none      &none     &none   &none     &none     &none   &none
-                                               &trans     &none     &trans  &trans 
+                &none       &none       &kp C_VOL_DN    &kp C_VOL_UP    &kp C_MUTE          &none           &kp HOME        &kp PG_DN       &kp PG_UP       &kp END
+                &kp LGUI    &kp LALT    &kp LCTRL       &kp LSHFT       &none               &kp ESC         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
+                &none       &none       &none           &none           &none               &none           &none           &none           &none           &none
+                                                        &trans          &none               &trans          &trans 
             >;
         };
 
         num {
             bindings = <
-                &none     &none     &none      &none      &none     &none   &none     &none     &none   &none
-                &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none     &none   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-                &none     &none     &none      &none      &none     &none   &none     &none     &none   &none
-                                               &trans     &trans    &none   &trans 
+                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5              &none           &none           &none           &none           &none
+                &kp N6      &kp N7      &kp N8      &kp N9      &kp N0              &none           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI
+                &none       &none       &none       &none       &none               &none           &none           &none           &none           &none
+                                                    &trans      &trans              &none           &trans 
             >;
         };
 
         sym {
             bindings = <
-                &none     &none     &none      &none      &none     &none   &none     &none     &none   &none
-                &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none     &none   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-                &none     &none     &none      &none      &none     &none   &none     &none     &none   &none
-                                               &trans     &trans    &trans  &none 
+                &none       &kp GRAVE   &kp BSLSH   &kp LBKT    &kp RBKT            &none           &none           &none           &none           &none
+                &kp SEMI    &none       &none       &kp MINUS   &kp EQUAL           &none           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI
+                &none       &none       &none       &none       &none               &none           &none           &none           &none           &none
+                                                    &trans      &trans              &trans          &none 
             >;
         };
 
